@@ -1,9 +1,10 @@
 import { useJsApiLoader } from '@react-google-maps/api';
 import React, { useEffect, useMemo, useRef, useState } from 'react'
-import Map from './Map';
+import { lazyLoader } from './laziLoader';
+
+const Map = lazyLoader(() => import('./Map'));
 
 const libraries = ['places'];
-
 
 const MapRender = (props) => {
   const { isLoaded } = useJsApiLoader({
@@ -12,7 +13,7 @@ const MapRender = (props) => {
   });
   const [lat, setLat] = useState(-1);
   const [lng, setLng] = useState(120);
-  const [zoom, setZoom] = useState(5)
+  const [zoom, setZoom] = useState(10);
   const [markers, setMarkers] = useState(null)
   const [isWalking, setisWalking] = useState(false)
   const [isDriving, setisDriving] = useState(true)
@@ -27,10 +28,9 @@ const MapRender = (props) => {
   );
 
 
-  const handleMoveMarker = async (e) => {
+  const handleMoveMarker = (e) => {
     let newLat = e.latLng.toJSON().lat;
     let newLng = e.latLng.toJSON().lng;
-    console.log(newLat, newLng, "move")
     setLat(newLat);
     setLng(newLng);
   };
@@ -38,7 +38,6 @@ const MapRender = (props) => {
   const handleDragMarker = (e) => {
     let newLat = e.latLng.toJSON().lat;
     let newLng = e.latLng.toJSON().lng;
-    console.log(newLat, newLng, "drag")
     setLat(newLat);
     setLng(newLng);
   };
@@ -49,18 +48,17 @@ const MapRender = (props) => {
     setLat(newLat);
     setLng(newLng);
   })
+
   useEffect(() => {
     getCurrentLocation()
-
   }, [])
-
 
   useEffect(() => {
     if (lat && lng) {
       setMarkers({ lat, lng })
       setZoom(10)
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    return (() => { })
   }, [lat, lng]);
 
   const options = {
@@ -100,6 +98,7 @@ const MapRender = (props) => {
         markerOnClick={true}
         options={options}
         isSearchEnable={true}
+
       />
     </>
   )
