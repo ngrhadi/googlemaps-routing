@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser')
 const path = require("path");
 const favicon = require('serve-favicon')
-
+const routeApi = require('./routers/routeApi')
 const app = express();
 
 app.use(favicon(path.join(__dirname, '/public/favicon.ico')))
@@ -19,13 +19,8 @@ app.use(
   }),
 );
 
-app.use("/api/v1/", (req, res, next) => {
-  res.send({
-    message: "Welcome To Service Api v1",
-    application: "Service",
-    apiVersion: "v1",
-  })
-})
+
+app.use("/api/v1/route-google/", routeApi)
 app.route("/api/v1/^/?");
 
 var isProd = process.env.NODE_ENV === "production";

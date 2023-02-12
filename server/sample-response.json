@@ -1,0 +1,567 @@
+{
+  "response": {
+    "geocoded_waypoints": [
+      {
+        "geocoder_status": "OK",
+        "place_id": "ChIJcZjHzYH-aS4R7KuAs4oJs3c",
+        "types": ["premise"]
+      },
+      {
+        "geocoder_status": "OK",
+        "place_id": "ChIJQRxWqtD7aS4RTvCEBx24NRg",
+        "types": ["establishment", "point_of_interest"]
+      }
+    ],
+    "routes": [
+      {
+        "bounds": {
+          "northeast": {
+            "lat": -6.2063368,
+            "lng": 106.6727968
+          },
+          "southwest": {
+            "lat": -6.2277894,
+            "lng": 106.5850722
+          }
+        },
+        "copyrights": "Map data ©2023",
+        "legs": [
+          {
+            "distance": {
+              "text": "14.6 km",
+              "value": 14612
+            },
+            "duration": {
+              "text": "29 mins",
+              "value": 1726
+            },
+            "end_address": "Jalan Gempol Raya No. 29, Kunciran, Pinang, RT.001/RW.002, Kunciran, Kec. Pinang, Kota Tangerang, Banten 15144, Indonesia",
+            "end_location": {
+              "lat": -6.2203591,
+              "lng": 106.6702477
+            },
+            "start_address": "Jl. Taman Pattaya I No.25, Binong, Kec. Curug, Kabupaten Tangerang, Banten 15810, Indonesia",
+            "start_location": {
+              "lat": -6.2241376,
+              "lng": 106.5850722
+            },
+            "steps": [
+              {
+                "distance": {
+                  "text": "90 m",
+                  "value": 90
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 19
+                },
+                "end_location": {
+                  "lat": -6.2241782,
+                  "lng": 106.5858835
+                },
+                "html_instructions": "Head <b>east</b> on <b>Jl. Hokaido</b>",
+                "polyline": {
+                  "points": "zs~d@ukpiSFaD"
+                },
+                "start_location": {
+                  "lat": -6.2241376,
+                  "lng": 106.5850722
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.9 km",
+                  "value": 853
+                },
+                "duration": {
+                  "text": "3 mins",
+                  "value": 154
+                },
+                "end_location": {
+                  "lat": -6.224197800000001,
+                  "lng": 106.5934882
+                },
+                "html_instructions": "Continue onto <b>Jl. Taman Permata</b><div style=\"font-size:0.9em\">Pass by Indomaret (on the right in 500m)</div>",
+                "polyline": {
+                  "points": "bt~d@wppiSCYBc@DyAB_@AGAGAGCQI_@EKAGGUOe@Ma@ISOo@Gm@A_@@S@QBe@NoDLcCLsB@UFkAHmBL_C@WDeA@iA"
+                },
+                "start_location": {
+                  "lat": -6.2241782,
+                  "lng": 106.5858835
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.2 km",
+                  "value": 165
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 26
+                },
+                "end_location": {
+                  "lat": -6.2242049,
+                  "lng": 106.5949301
+                },
+                "html_instructions": "At the roundabout, continue straight onto <b>Jl. Jend. Sudirman</b>",
+                "maneuver": "roundabout-left",
+                "polyline": {
+                  "points": "ft~d@i`riSA?A??AA??AA??AA??A?AA??A?A?A?A@??A?A@??A@??A@??A@?Ak@?m@?a@?i@@q@@Y?G?I"
+                },
+                "start_location": {
+                  "lat": -6.224197800000001,
+                  "lng": 106.5934882
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "1.1 km",
+                  "value": 1103
+                },
+                "duration": {
+                  "text": "3 mins",
+                  "value": 151
+                },
+                "end_location": {
+                  "lat": -6.2266302,
+                  "lng": 106.6038883
+                },
+                "html_instructions": "Turn <b>right</b> to stay on <b>Jl. Jend. Sudirman</b>",
+                "maneuver": "turn-right",
+                "polyline": {
+                  "points": "ft~d@iiriSBCHENCHAJ@D?D@NCZKVMl@a@PKHI@?HGNO?ATSb@e@BC\\c@LSHQBGBGBK?I@g@@e@?Y?I@UBgD?eA@O?O?GXiE@QVcEBmA@O?A?EHaCBq@Bi@?UDcALoCDi@?ADc@BY"
+                },
+                "start_location": {
+                  "lat": -6.2242049,
+                  "lng": 106.5949301
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "59 m",
+                  "value": 59
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 7
+                },
+                "end_location": {
+                  "lat": -6.2264316,
+                  "lng": 106.6043764
+                },
+                "html_instructions": "Slight <b>left</b> toward <b>Jl. Boulevard Diponegoro</b>",
+                "maneuver": "turn-slight-left",
+                "polyline": {
+                  "points": "lc_e@iatiSAGAKCOEQEK?CIKIO"
+                },
+                "start_location": {
+                  "lat": -6.2266302,
+                  "lng": 106.6038883
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.5 km",
+                  "value": 470
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 71
+                },
+                "end_location": {
+                  "lat": -6.2252676,
+                  "lng": 106.607087
+                },
+                "html_instructions": "Slight <b>left</b> onto <b>Jl. Boulevard Diponegoro</b>",
+                "maneuver": "turn-slight-left",
+                "polyline": {
+                  "points": "db_e@kdtiS[Kk@Mw@Gi@@m@Fw@?GAQGSOOOHiD?OJ{@HaAF[H]b@kAN]"
+                },
+                "start_location": {
+                  "lat": -6.2264316,
+                  "lng": 106.6043764
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.6 km",
+                  "value": 554
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 61
+                },
+                "end_location": {
+                  "lat": -6.2274546,
+                  "lng": 106.6115513
+                },
+                "html_instructions": "Keep <b>left</b> to stay on <b>Jl. Boulevard Diponegoro</b><div style=\"font-size:0.9em\">Go through 1 roundabout</div>",
+                "maneuver": "keep-left",
+                "polyline": {
+                  "points": "|z~d@iutiS`@{@f@kA|@qBDIn@sATc@hAiCHQDMVm@DQ?A?AA??A?A?A?A?A?A?A@A?A?A@A@A?A@??A@A@??A@?@A@?h@eBNk@\\}A"
+                },
+                "start_location": {
+                  "lat": -6.2252676,
+                  "lng": 106.607087
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.2 km",
+                  "value": 233
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 24
+                },
+                "end_location": {
+                  "lat": -6.2273261,
+                  "lng": 106.6134026
+                },
+                "html_instructions": "Slight <b>left</b><div style=\"font-size:0.9em\">Toll road</div>",
+                "maneuver": "turn-slight-left",
+                "polyline": {
+                  "points": "ph_e@equiS?q@Ne@T{@Nq@Jm@@M?KAECKEKIKMMw@k@"
+                },
+                "start_location": {
+                  "lat": -6.2274546,
+                  "lng": 106.6115513
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.5 km",
+                  "value": 537
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 60
+                },
+                "end_location": {
+                  "lat": -6.2247506,
+                  "lng": 106.6163231
+                },
+                "html_instructions": "Keep <b>left</b> at the fork, follow signs for <b>Jakarta</b>/<wbr/><b>Tangerang</b><div style=\"font-size:0.9em\">Toll road</div>",
+                "maneuver": "fork-left",
+                "polyline": {
+                  "points": "xg_e@w|uiSYEUIw@m@QK[U]UAAQKICCAICMAEAE?I?I?QD_@LYFIBKBG@C?E?K?MAAAICA?KEGCAACCCEEEEIEICU?A?e@Aw@CaAEy@AWWyC"
+                },
+                "start_location": {
+                  "lat": -6.2273261,
+                  "lng": 106.6134026
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.5 km",
+                  "value": 532
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 61
+                },
+                "end_location": {
+                  "lat": -6.2242823,
+                  "lng": 106.6210514
+                },
+                "html_instructions": "Keep <b>left</b> at the fork to continue toward <b>Jl. Tol Jkt - Tangerang</b>/<wbr/><b>Jl. Tol Merak - Jkt</b><div style=\"font-size:0.9em\">Toll road</div>",
+                "maneuver": "fork-left",
+                "polyline": {
+                  "points": "tw~d@_oviSKIEGCK?O@UBWJc@?OA_A?m@Ag@?_@q@{IGy@MyBM{A"
+                },
+                "start_location": {
+                  "lat": -6.2247506,
+                  "lng": 106.6163231
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "4.3 km",
+                  "value": 4294
+                },
+                "duration": {
+                  "text": "4 mins",
+                  "value": 269
+                },
+                "end_location": {
+                  "lat": -6.2189238,
+                  "lng": 106.6595072
+                },
+                "html_instructions": "Keep <b>right</b> at the fork, follow signs for <b>Tangerang</b>/<wbr/><b>Kembangan</b>/<wbr/><b>Lkr. Dalam</b> and merge onto <b>Jl. Tol Jkt - Tangerang</b>/<wbr/><b>Jl. Tol Merak - Jkt</b><div style=\"font-size:0.9em\">Toll road</div>",
+                "maneuver": "fork-right",
+                "polyline": {
+                  "points": "vt~d@qlwiSGaAi@qGG_AG}@Ea@S_DGgAAc@Cq@Fe@OaB{AaSC]C[K}@_AcMWsCOmCC_@Iw@KmBm@mIEa@SkCCa@W_DGo@Ca@G_AGaAIu@g@sHKs@GoAEs@OyAg@wGKgBOgBI{@Cc@_@yEOkBOkBACAQ?E?CA??AASUmCC_@eAsNw@cK{@_LSgCYaEASS_DCUEm@IaAIaAMgBCWAQKoA"
+                },
+                "start_location": {
+                  "lat": -6.2242823,
+                  "lng": 106.6210514
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.5 km",
+                  "value": 504
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 67
+                },
+                "end_location": {
+                  "lat": -6.218064399999999,
+                  "lng": 106.6639746
+                },
+                "html_instructions": "Take exit <b>16</b> toward <b>Serpong</b><div style=\"font-size:0.9em\">Toll road</div>",
+                "maneuver": "ramp-left",
+                "polyline": {
+                  "points": "fs}d@}|~iSWaAMkAMqASqB_@oCIk@KiAEe@AWEeBEo@AEOw@GQ"
+                },
+                "start_location": {
+                  "lat": -6.2189238,
+                  "lng": 106.6595072
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "1.3 km",
+                  "value": 1273
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 80
+                },
+                "end_location": {
+                  "lat": -6.2101717,
+                  "lng": 106.6593618
+                },
+                "html_instructions": "Keep <b>left</b> at the fork and merge onto <b>Jl. Tol Kunciran - Batuceper - Cengkareng</b>/<wbr/><b>Jl. Tol Kunciran - Serpong</b>/<wbr/><b>Jl. Tol Lkr. Luar Jkt 2</b><div style=\"font-size:0.9em\">Toll road</div>",
+                "maneuver": "fork-left",
+                "polyline": {
+                  "points": "zm}d@yx_jSa@u@y@{ASa@Yi@s@gA][a@OYEG?W?g@FEBWH[PIF_@\\CBs@l@?@A?YT[TA@]RYREBm@\\YL_DlDQTSRe@h@QTi@j@e@ZGHGHGJm@x@w@hAeApACDkD`ECBGH[`@g@p@WXILKLm@r@"
+                },
+                "start_location": {
+                  "lat": -6.218064399999999,
+                  "lng": 106.6639746
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.5 km",
+                  "value": 517
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 63
+                },
+                "end_location": {
+                  "lat": -6.2067956,
+                  "lng": 106.6562459
+                },
+                "html_instructions": "Take exit <b>11</b> toward <b>Cipete</b>/<wbr/><b>Cikokol</b>/<wbr/><b>Ciledug</b><div style=\"font-size:0.9em\">Toll road</div>",
+                "maneuver": "ramp-left",
+                "polyline": {
+                  "points": "p|{d@_|~iSIXEJQVEHOREFORi@t@A@WZEFORg@j@}@z@[XgA|@wAfAiB`A{@d@q@T"
+                },
+                "start_location": {
+                  "lat": -6.2101717,
+                  "lng": 106.6593618
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.2 km",
+                  "value": 161
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 28
+                },
+                "end_location": {
+                  "lat": -6.2063368,
+                  "lng": 106.65487
+                },
+                "html_instructions": "Turn <b>left</b> onto <b>Jl. Rasuna Said</b>",
+                "maneuver": "turn-left",
+                "polyline": {
+                  "points": "ng{d@qh~iSCJIVOb@CHEL?@AFIXETWjACJE`@"
+                },
+                "start_location": {
+                  "lat": -6.2067956,
+                  "lng": 106.6562459
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "55 m",
+                  "value": 55
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 9
+                },
+                "end_location": {
+                  "lat": -6.206818699999999,
+                  "lng": 106.6547721
+                },
+                "html_instructions": "Turn <b>left</b> toward <b>Jl. Rasuna Said</b>",
+                "maneuver": "turn-left",
+                "polyline": {
+                  "points": "rd{d@}_~iS~AR"
+                },
+                "start_location": {
+                  "lat": -6.2063368,
+                  "lng": 106.65487
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "55 m",
+                  "value": 55
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 15
+                },
+                "end_location": {
+                  "lat": -6.2063368,
+                  "lng": 106.65487
+                },
+                "html_instructions": "Make a <b>U-turn</b>",
+                "maneuver": "uturn-right",
+                "polyline": {
+                  "points": "rg{d@i_~iS_BS"
+                },
+                "start_location": {
+                  "lat": -6.206818699999999,
+                  "lng": 106.6547721
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "2.5 km",
+                  "value": 2470
+                },
+                "duration": {
+                  "text": "7 mins",
+                  "value": 419
+                },
+                "end_location": {
+                  "lat": -6.2176035,
+                  "lng": 106.6712607
+                },
+                "html_instructions": "Turn <b>right</b> onto <b>Jl. Rasuna Said</b><div style=\"font-size:0.9em\">Pass by Kedai Asli Kopi (on the left in 2.5 km)</div>",
+                "maneuver": "turn-right",
+                "polyline": {
+                  "points": "rd{d@}_~iSDa@BKVkADUHY@G?ADMBINc@HWBKDYFYBS@IBa@BWBW@CHi@BUBUJo@F{@DSBc@?W@SAe@Aq@Ci@Ac@Ag@@{@?G@_@BY@YBOBS?ABMDKBKBA@?BALANCHCFEFEDC@AD?HAVBH?H?JANALCHENGHEBCDCDG@E@U@GBGBCFAH?NAJAHAHADADCDCBCBCBGDIDOBKBIDIDEJI`@CTAFALCHAF?F?F?J@LBH@L@F@H?H@@A?A@?@C@GDY@KDSH_@HQBIf@eBF_@?CBG?E@IDW@EBM@K@ABIBGDIHQ@GJc@DI@EBGDI@ABGDEDG@CBEDGDIVoABGDIRa@?ATa@HMDKJ[Lg@BIDQFOFMHMNSLSNODG`@]BCn@m@JKn@i@DGTWDGBCHIHKFG@CJKPUPUP[FGNWLUHMFGBA@ABAB?@?BAH@P@P@F?H?L?JAZC@?FCD?BABA@AJIRSJGTOLI@?FEDEDIJYRk@BE?CJUBEDGDG@CBA@ADAJCNG@ABA@C@ANSTa@FIJSDK@C?A@C?AAA?CCGEGACAECEAE?C?G@EBG@C@A@ABC@ABABA\\M\\KFANCTG@?XILELE\\Kb@OLEd@U"
+                },
+                "start_location": {
+                  "lat": -6.2063368,
+                  "lng": 106.65487
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.4 km",
+                  "value": 359
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 63
+                },
+                "end_location": {
+                  "lat": -6.2198167,
+                  "lng": 106.6727968
+                },
+                "html_instructions": "At the roundabout, continue straight onto <b>Jl. Sultan Ageng Tirtayasa</b>",
+                "maneuver": "roundabout-left",
+                "polyline": {
+                  "points": "~j}d@kfajS?AA??A?AA??A?AAA?A?A?A?A@A?A?A@??A@A?A@??A@?@A@?@??A@?@?@?@?@?@?@@@?@??@@?@@@??@LQ@A?A@?@?B?@?H@j@Fr@JJ@PBH@D?DAB?DA@A@A?A?ABK@IP{@@E@G?CBG@GBG@EFGDGBADEJGRONI^YTQNK\\]"
+                },
+                "start_location": {
+                  "lat": -6.2176035,
+                  "lng": 106.6712607
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.1 km",
+                  "value": 114
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 22
+                },
+                "end_location": {
+                  "lat": -6.2206001,
+                  "lng": 106.6721523
+                },
+                "html_instructions": "Turn <b>right</b> onto <b>Jl. Gempol Raya</b>",
+                "maneuver": "turn-right",
+                "polyline": {
+                  "points": "zx}d@_pajSHLRRl@j@FFHFDBBBDBDBDBDBD@D@NF"
+                },
+                "start_location": {
+                  "lat": -6.2198167,
+                  "lng": 106.6727968
+                },
+                "travel_mode": "DRIVING"
+              },
+              {
+                "distance": {
+                  "text": "0.2 km",
+                  "value": 214
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 57
+                },
+                "end_location": {
+                  "lat": -6.2203591,
+                  "lng": 106.6702477
+                },
+                "html_instructions": "Turn <b>right</b> onto <b>Jl. H. Marzuki</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                "maneuver": "turn-right",
+                "polyline": {
+                  "points": "v}}d@}kajSEdAAVALALO|@I`@GVCTAX?`@@R?@?N@P"
+                },
+                "start_location": {
+                  "lat": -6.2206001,
+                  "lng": 106.6721523
+                },
+                "travel_mode": "DRIVING"
+              }
+            ],
+            "traffic_speed_entry": [],
+            "via_waypoint": []
+          }
+        ],
+        "overview_polyline": {
+          "points": "zs~d@ukpiSFaDCYH}B@g@COUeAo@qBOo@Gm@?s@b@kJ`@cINwCFoCA?A?ACCE@MBA@AA{BB}BBMXI`@@j@OdAo@f@]hAkA`@g@Ve@FOBUBqBFsGZsF\\cHPcFDyARyDDe@@a@E[K]IOIO[Kk@Mw@Gi@@m@F_AAQGSOOOHiDJkAP}Al@iBvCwGtCkGl@_BAMBKHI@Aj@eBl@iC?q@Ne@d@mBL{@AQIWWYw@k@YEUIw@m@m@a@{@g@a@IO?[DoA\\]@[GYOOUI_@?g@EyBGqAWyCKIIS@e@N{@CeD?_@q@{IUsDgAoNa@_GIkBCq@Fe@kBcVGy@cBuSi@sIwBoYQwBg@sHKs@McCw@qJi@oHaAuL[_E}Dwh@cA}N}@iLWaAMkAa@cEi@{DQoBG}BGu@WiA{AqCm@kAs@gA][a@OYE_@?m@Js@ZaBvAqBvAs@`@YL_DlDe@h@w@~@i@j@e@ZORsD`F{DtEeBzBy@`AOd@m@|@sAfBUZeBfBcBvAwAfAiB`A{@d@q@TMb@Y|@i@bCIl@~AR_BSHm@\\aBPq@`@qARqAJqARyA\\cDAcCGuBF}BH}@Lg@VEXGNKVG`@BTA\\EXMXUB[DOJEXAd@GRORm@HSPOlAK`@Ap@HZBDGNaA~@aDXgBJ_@N[Lk@Pa@JOJQJQZwAn@oAZu@^sAn@cAlDeDhAqAb@k@Xc@n@cALE`@@p@@p@INE^]`@W\\Uh@uATg@LOb@OV[n@kABKUk@DYHKf@SjAYtAa@vAk@ACCGDQJGPBB@NSH?tBVf@BJC\\eBH[HMHIt@g@bBuArAtAXRVLTHG|A]zBKl@Az@Bv@"
+        },
+        "summary": "Jl. Tol Jkt - Tangerang/Jl. Tol Merak - Jkt",
+        "warnings": [],
+        "waypoint_order": []
+      }
+    ],
+    "status": "OK"
+  },
+  "timestamp": 1676199145845
+}

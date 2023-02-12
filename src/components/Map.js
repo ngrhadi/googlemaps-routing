@@ -69,8 +69,6 @@ const Map = (props) => {
         setisDriving={props.setisDriving}
         setShowSidebar={props.setShowSidebar}
         showSidebar={props.showSidebar}
-        longitude={props.lng}
-        latitude={props.lat}
         handleFocusOrigin={handleFocusOrigin}
         handleFocusDestination={handleFocusDestination}
         isOrigin={isOrigin}

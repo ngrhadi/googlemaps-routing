@@ -4,7 +4,7 @@ import { lazyLoader } from './laziLoader';
 
 const Map = lazyLoader(() => import('./Map'));
 
-const libraries = ['places'];
+const libraries = ['geometry'];
 
 const MapRender = (props) => {
   const { isLoaded } = useJsApiLoader({
