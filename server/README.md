@@ -11,4 +11,4 @@
 9. :)
 
 Table on Db looks like?
-![db dekstop using dbeaver](https://github.com/ngrhadi/googlemaps-routing/blob/master/table_pg.png?raw=true)
+![db dekstop using dbeaver](https://github.com/ngrhadi/googlemaps-routing/blob/master/public/table_pg.png?raw=true)
