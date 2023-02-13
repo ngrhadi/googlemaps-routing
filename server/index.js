@@ -4,7 +4,11 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser')
 const path = require("path");
 const favicon = require('serve-favicon')
+
 const routeApi = require('./routers/routeApi')
+const locationApi = require('./routers/locIdApi')
+const storeData = require('./routers/storeData')
+
 const app = express();
 
 app.use(favicon(path.join(__dirname, '/public/favicon.ico')))
@@ -21,6 +25,8 @@ app.use(
 
 
 app.use("/api/v1/route-google/", routeApi)
+app.use("/api/v1/loc-id/", locationApi)
+app.use("/api/v1/store-data/", storeData)
 app.route("/api/v1/^/?");
 
 var isProd = process.env.NODE_ENV === "production";
@@ -45,4 +51,5 @@ var serverApps = app.listen(port, function () {
   }
 });
 
-serverApps.keepAlive = true;
+serverApps.keepAlive = true
+// console.log(serverApps, "server apps")
